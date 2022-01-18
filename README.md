@@ -4,6 +4,19 @@
 
   This web server application which can listen on a configurable TCP port and serve both static HTML and dynamically generated HTML. It also support GET requests and Content-Type and Content-Length.
 
+## Design
+```
+  +----------------------------------------------+
+  |                                              |
+  |  +-----------+   wait   +-----------------+  |  copy   +---------+
+  |  |           +---------->                 +------------>         |
+  |  | IO Device |    1     | Kernel's buffer |  |   2     | Process |
+  |  |           <----------+                 <------------+         |
+  |  +-----------+          +-----------------+  |         +---------+
+  |                                              |
+  +----------------------------------------------+
+```
+
 ## Technologies Used
 
   - C++
