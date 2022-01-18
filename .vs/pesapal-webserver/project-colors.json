@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ecf3e7de-715a-4e8e-8372-a11a28a7b214": {
+      "ProjectGuid": "ecf3e7de-715a-4e8e-8372-a11a28a7b214",
+      "DisplayName": "pesapal-webserver",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
