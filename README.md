@@ -35,24 +35,30 @@
 
   * Clone this repo to your chosen directory using this link https://github.com/godfreyowidi/pesapal-webserver in terminal.
 
-### Setting Up the Database
+# Usage
 
+### Compile and run
+  * Launch the application using visual studio 2022
+  * Build by clicking on the build option on the top of visual studio 2022
+  * You will get the following message on your terminal on the bottom if the build is
+  ```
+  ========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+  ```
+  * Click on the green button on the top main menu to run the application with the option __Local Windows Debugger__ selected.
+  * When a console to _pesapal-webserver_ pops up, navigate to the browser and enter the url http://localhost:8080/index.html to render the resources
+  * You can also make concurrent request by rendereng both the html files
+  * The application also renders _a not found page code 404_ incese the url is incorrect.
 
-### Using the application:
-Server is started on either :-
+#### HTTP
+   * Direct your favorite browser to for instance http://localhost:8080/
 
-http://localhost:8080
-
-
-Copy and paste either of the above in the browser to experience the splash page
-
-
+#### TODO
+  - HTTPS (SSL/TLS) support using OpenSSL.
+  - Resumed download, URL rewrite, file blacklist, IP-based ACL
+  - Timer
 
 ## Known Bugs
-no known bugs
-
-## License
-License: MIT
+  * Work-in-progress
 
 ## Contact
-Email Contact
+  * Email Contact
